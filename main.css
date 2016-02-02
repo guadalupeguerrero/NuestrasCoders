@@ -1,0 +1,55 @@
+/* Inserta tu código aqui */
+
+div div{
+width:200px;
+height:200px;
+margin: 20px;
+}
+
+hr{
+	border-top: 3px solid black;
+	width: 100px;
+	float: left;
+	position: absolute;
+}
+
+/* Imágenes de perfil */
+.inlineblock{
+display: inline-block;
+}
+
+.uno{
+background-image: url(img/profile-1.png);
+}
+
+.dos{
+background-image: url(img/profile-2.png);
+}
+
+.tres{
+background-image: url(img/profile-3.png);
+}
+
+.cuatro{
+background-image: url(img/profile-4.png);
+}
+
+.cinco{
+background-image: url(img/profile-5.png);
+}
+
+.seis{
+background-image: url(img/profile-6.png);
+}
+
+p{
+color: white;	
+text-align: right;
+margin-top: 180px;
+font-family: helvetica;
+}
+
+/* filtro */
+.efect{
+	-webkit-filter: brightness(0.9) contrast(0.9) hue-rotate(60deg) invert(0.1) saturate(1.3) sepia(0.1);
+}
